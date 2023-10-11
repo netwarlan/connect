@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>NETWAR Connect Service</title>
+  <style>
+   body {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(https://www.netwar.org/wp-content/uploads/2022/03/NWXB_BG_1920x1080_ALT.jpg);
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let pathinfo = window.location.href.split("?")[1];
+    window.location = "steam://connect/" + pathinfo;
+
+    let meta = '<meta http-equiv="refresh" content="0;url=' + window.location + '">';
+    document.write (meta);
+  </script>
+</body>
+</html>
