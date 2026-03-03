@@ -1,5 +1,9 @@
 # Connect
 
+[![Build](https://img.shields.io/github/actions/workflow/status/netwarlan/connect/build.yml)](https://github.com/netwarlan/connect/actions)
+[![Release](https://img.shields.io/github/v/release/netwarlan/connect)](https://github.com/netwarlan/connect/releases)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/QtqKW9xvzK)
+
 ### Running
 To run the container, issue the following example command:
 ```
